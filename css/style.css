@@ -1,0 +1,32 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #0f0e0e;
+	
+	margin:0;
+	padding: 0;
+
+}
+header{
+	padding: 20px 100px;
+	background-color: black;
+	border-radius: 10px;
+	box-shadow: 1px 10px 40px black ;
+}
+header span, footer span{
+	font-size: 60px;
+	color: #d3d3d3;
+	font-family: arial;
+	font-weight: 800;
+	text-shadow: -6px 7px 8px #383838;
+}
+footer{
+	padding: 20px 100px;
+	background-color: black;
+	border-radius: 10px;
+	box-shadow: -1px -10px 40px black ;
+	text-align: center;
+}
+
