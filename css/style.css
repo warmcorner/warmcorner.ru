@@ -22,6 +22,31 @@ header span, footer span{
 	font-weight: 800;
 	text-shadow: -6px 7px 8px #383838;
 }
+main{
+	margin: 50px 0;
+}
+.videoBox{
+	border:1px solid black;
+	padding: 5px;
+	border-radius: 10px;
+	box-shadow: 8px 8px 10px black ;
+}
+.videoBox:hover{
+	opacity: 0.6;
+}
+.burgerMenu > i{
+	color: #d3d3d3;
+}
+.burgerMenu{
+	float: right;
+	cursor:pointer;
+}
+.burgerMenu:hover{
+	opacity: 0.8;
+}
+
+
+
 footer{
 	padding: 20px 100px;
 	background-color: black;
