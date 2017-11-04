@@ -52,6 +52,7 @@ main{
 	margin:40px auto;
 	box-shadow: -5px -10px 40px black ;
 	overflow: hidden;
+	width: 40%;
 }
 .hideMenu{
 	display: none;
