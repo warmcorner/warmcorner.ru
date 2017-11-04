@@ -14,13 +14,14 @@ header{
 	background-color: black;
 	border-radius: 10px;
 	box-shadow: 1px 10px 40px black ;
+	
 }
-header span, footer span{
-	font-size: 60px;
+header span{
+	font-size: 100px;
 	color: #d3d3d3;
-	font-family: arial;
-	font-weight: 800;
 	text-shadow: -6px 7px 8px #383838;
+	float: left;
+	font-family: MyFont;
 }
 main{
 	margin: 50px 0;
@@ -44,8 +45,28 @@ main{
 .burgerMenu:hover{
 	opacity: 0.8;
 }
-
-
+.burgerMenu:hover .hideMenu{
+	display: block;
+}
+.adsense{
+	margin:40px auto;
+	box-shadow: -5px -10px 40px black ;
+	overflow: hidden;
+}
+.hideMenu{
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+.hideMenu > ul > li > a{
+	color: white;
+	font-size: 20px;
+}
+.hideMenu > ul > li :hover{
+	background-color: #424242;
+	width: 100%;
+	border-radius: 5px;
+}
 
 footer{
 	padding: 20px 100px;
@@ -54,4 +75,10 @@ footer{
 	box-shadow: -1px -10px 40px black ;
 	text-align: center;
 	overflow: hidden;
+}
+
+
+@font-face {
+    font-family: MyFont;
+    src: url(../font/LombardinaInitialOne.ttf);
 }
