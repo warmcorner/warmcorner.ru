@@ -1,3 +1,5 @@
  $(".show").on("mouseover",function(){
-	$(".hidee").toggle(5000);
+    $(".hidee").show(1500)
+                .delay(5000)
+                .fadeOut(1500);
 });  

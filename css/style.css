@@ -57,6 +57,7 @@ main{
 .hideMenu{
 	display: none;
 	position: absolute;
+	right: 0;
 	z-index: 1;
 }
 .hideMenu > ul > li > a{
